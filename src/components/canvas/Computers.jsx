@@ -24,7 +24,6 @@ const ComputersCanvas = () => {
       </div>
     );
   }
-
   return (
     <Canvas
       frameloop="demand"
