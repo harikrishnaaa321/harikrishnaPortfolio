@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
+// import { ComputersCanvas } from "./canvas";
 
 // Icon components
 import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
@@ -56,10 +56,7 @@ const Hero = () => {
       </div>
 
       {/* ComputersCanvas (optional - you can make it smaller on mobile if needed) */}
-      <div className="hidden sm:block absolute bottom-0 w-full flex justify-center items-center">
-        {/* <ComputersCanvas /> */}
-      </div>
-
+     
       {/* Scroll Indicator */}
       <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
         <a href="#about">
