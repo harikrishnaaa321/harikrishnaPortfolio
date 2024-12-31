@@ -57,8 +57,11 @@ const Hero = () => {
 <br/>
       {/* ComputersCanvas: Make it smaller on mobile */}
       
-        <ComputersCanvas />
-     
+  {/* ComputersCanvas: Handle mobile visibility */}
+<div className="mt-10">
+  <ComputersCanvas />
+</div>
+
 
       {/* Scroll Indicator */}
       <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
