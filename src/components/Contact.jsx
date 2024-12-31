@@ -27,7 +27,7 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
@@ -41,9 +41,9 @@ const Contact = () => {
         'template_jmsxxnc',
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Harikrishna Battula",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
+          to_email: "bharikrishna64@gmail.com",
           message: form.message,
         },
        'l1bANF7xxoaewn_Sl'
@@ -67,6 +67,7 @@ const Contact = () => {
         }
       );
   };
+
 
   return (
     <div
