@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 // Icon components
-import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa"; // Importing only the available icons
+import { FaLinkedin, FaGithub, FaFileDownload } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si"; // Importing LeetCode icon
 
 const Hero = () => {
@@ -11,19 +11,19 @@ const Hero = () => {
     <section className={`relative w-full h-screen mx-auto`}>
       {/* Container for the entire content */}
       <div
-        className={`absolute inset-0 top-[120px] max-w-7xl mx-auto ${styles.paddingX} flex flex-col sm:flex-row items-start gap-5 flex-wrap`}
+        className={`absolute inset-0 top-0.5/4 max-w-7xl mx-auto ${styles.paddingX} flex flex-col justify-center items-center gap-5`}
       >
-        {/* Image */}
-        <div className="flex flex-col justify-center items-center sm:mr-10 mb-5 sm:mb-0">
+        {/* Profile Image */}
+        <div className="flex justify-center items-center w-full mb-5">
           <img
             src="harikrishna_battula.jpg"
             alt="Hari Krishna Battula"
-            className="w-[30%] h-[30%] sm:w-40 sm:h-40 rounded-full object-cover border-2 border-white"
+            className="w-[100px] h-[100px] sm:w-40 sm:h-40 rounded-full object-cover border-2 border-white"
           />
         </div>
 
         {/* Text and Social Links */}
-        <div className="flex-1 text-center sm:text-left">
+        <div className="text-center">
           <h1 className={`text-white text-2xl sm:text-4xl font-bold`}>
             Hi, I'm <span className="text-[#915EFF]">Hari Krishna Battula</span>
           </h1>
@@ -34,7 +34,7 @@ const Hero = () => {
           </p>
 
           {/* Social Links and Resume Button */}
-          <div className="mt-5 flex gap-6 flex-wrap justify-center sm:justify-start">
+          <div className="mt-5 flex gap-6 flex-wrap justify-center">
             {[
               { href: "https://github.com/harikrishnaaa321", icon: <FaGithub size={30} />, label: "GitHub" },
               { href: "https://www.linkedin.com/in/hari-krishna-battula-788313248/", icon: <FaLinkedin size={30} />, label: "LinkedIn" },
@@ -54,14 +54,11 @@ const Hero = () => {
           </div>
         </div>
       </div>
-<br/>
-      {/* ComputersCanvas: Make it smaller on mobile */}
-      
-  {/* ComputersCanvas: Handle mobile visibility */}
-<div className="mt-10">
-  <ComputersCanvas />
-</div>
 
+      {/* ComputersCanvas (optional - you can make it smaller on mobile if needed) */}
+      <div className="hidden sm:block absolute bottom-0 w-full flex justify-center items-center">
+        {/* <ComputersCanvas /> */}
+      </div>
 
       {/* Scroll Indicator */}
       <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
