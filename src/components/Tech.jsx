@@ -5,9 +5,9 @@ import { FaReact, FaNode, FaPython } from "react-icons/fa"; // Example icons
 import { styles } from "../styles";
 
 const technologies = [
-  { name: "React", icon: <FaReact /> },
-  { name: "Node.js", icon: <FaNode /> },
-  { name: "Python", icon: <FaPython /> },
+   { name: "React", icon: <FaReact />, color: "#61DAFB" }, // React logo color
+  { name: "Node.js", icon: <FaNode />, color: "#68A063" }, // Node.js color
+  { name: "Python", icon: <FaPython />, color: "#306998" }, 
   // Add other technologies as needed
 ];
 
