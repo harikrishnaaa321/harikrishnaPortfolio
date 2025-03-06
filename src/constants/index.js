@@ -215,67 +215,55 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Handwritten Text Recognition",
+    name: "Threat Detection in Surveillance Footage",
     description:
-      "Developed a system using Python and Neural Networks to recognize handwritten text with high accuracy, leveraging an RCNN model and LSTM layers for sequence prediction.",
+      "Designed a violence detection system in videos for violent activities using MobileNet for feature extraction and Bidirectional LSTM for sequence modeling, achieving an accuracy of 94.17% and a validation loss of 0.1906.",
     tags: [
       {
-        name: "python",
+        name: "LSTM",
         color: "blue-text-gradient",
       },
       {
-        name: "deep-learning",
+        name: "Python",
         color: "green-text-gradient",
       },
+    ],
+    image: "/output.png",
+    source_code_link: "https://github.com/harikrishnaaa321/violence-detection-in-videos",
+  },
+  {
+    name: "Safety Monitoring in Construction Sites",
+    description:
+      "Fine-tuned the YOLOv8 model to enable real-time monitoring of construction sites, detecting safety violations across 10 categories, including missing helmets, masks, and unauthorized machinery usage, enhancing workplace safety. ",
+    tags: [
       {
-        name: "rcnn",
-        color: "pink-text-gradient",
+        name: "YOLO",
+        color: "blue-text-gradient",
       },
     ],
-    image: "/handwritten_text1.png",
-    source_code_link: "https://github.com/harikrishnaaa321/handwritten_text_recognition",
+    image: "/output1.png",
+    source_code_link: "https://github.com/harikrishnaaa321/construction-site-surveillance",
   },
   {
     name: "Chatting System",
     description:
-      "Built a real-time chatting application using the MERN stack, integrating Socket.io for instant messaging and achieving low-latency communication between users.",
+      "Created a chatting application using the MERN stack, facilitating seamless communication between two users. Integrated Socket.io for real-time messaging. Implemented a user authentication system with JWT, ensuring secure access for multiple users.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "socket.io",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: "/chat-app-3.png",
-    source_code_link: "https://github.com/harikrishnaaa321/hey-chat",
-  },
-  {
-    name: "Dream Estate",
-    description:
-      "Developed a property listing platform with 3+ search filters and real-time updates, supporting secure user authentication and seamless CRUD operations for owners to manage their listings.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/realestate.png",
-    source_code_link: "https://github.com/harikrishnaaa321/RealEstateApp.git",
+    image: "chat-app-3.png",
+    source_code_link: "https://github.com/harikrishnaaa321/mern-chat-app",
   },
 ];
 
