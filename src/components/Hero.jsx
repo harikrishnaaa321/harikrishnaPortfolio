@@ -39,7 +39,7 @@ const Hero = () => {
               { href: "https://github.com/harikrishnaaa321", icon: <FaGithub size={30} />, label: "GitHub" },
               { href: "https://www.linkedin.com/in/hari-krishna-battula-788313248/", icon: <FaLinkedin size={30} />, label: "LinkedIn" },
               { href: "https://leetcode.com/u/bharikrishna64/", icon: <SiLeetcode size={30} />, label: "LeetCode" },
-              { href: "https://drive.google.com/file/d/1pNmZCuHqZBRe7oNX3Gq56mx-w9tnBGmk/view?usp=sharing", icon: <FaFileDownload size={30} />, label: "Resume" },
+              { href: "https://drive.google.com/file/d/1B1B0oIqMB6C3CG3bR3j5smQMo2a7JPRq/view?usp=sharing", icon: <FaFileDownload size={30} />, label: "Resume" },
             ].map(({ href, icon, label }) => (
               <a
                 href={href}
