@@ -231,19 +231,19 @@ const projects = [
     image: "/output.png",
     source_code_link: "https://github.com/harikrishnaaa321/violence-detection-in-videos",
   },
-  {
-    name: "Safety Monitoring in Construction Sites",
-    description:
-      "Fine-tuned the YOLOv8 model to enable real-time monitoring of construction sites, detecting safety violations across 10 categories, including missing helmets, masks, and unauthorized machinery usage, enhancing workplace safety. ",
-    tags: [
-      {
-        name: "YOLO",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: "/output1.png",
-    source_code_link: "https://github.com/harikrishnaaa321/construction-site-surveillance",
-  },
+  // {
+  //   name: "Safety Monitoring in Construction Sites",
+  //   description:
+  //     "Fine-tuned the YOLOv8 model to enable real-time monitoring of construction sites, detecting safety violations across 10 categories, including missing helmets, masks, and unauthorized machinery usage, enhancing workplace safety. ",
+  //   tags: [
+  //     {
+  //       name: "YOLO",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: "/output1.png",
+  //   source_code_link: "https://github.com/harikrishnaaa321/construction-site-surveillance",
+  // },
   {
     name: "Chatting System",
     description:
