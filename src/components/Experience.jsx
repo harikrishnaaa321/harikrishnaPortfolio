@@ -13,25 +13,27 @@ import { textVariant } from "../utils/motion";
 
 const experiences = [
   {
+    date: "May 2025 – Jun 2025",
+    title: "Summer Intern",
+    company_name: "Turtil (Remote)",
+    icon: "image.png",
+    iconBg: "#e6e6e6",
+    points: [
+      "Built a DistilBERT-based API service for detecting toxic and abusive language, achieving a micro F1-score of 0.80.",
+      "Designed RESTful APIs to classify user-generated content and return real-time moderation actions with structured JSON responses for seamless system integration.",
+      "Converted the model to ONNX for offline inference under 1 second.",
+      "Delivered structured JSON responses with toxicity scores, classification labels, moderation actions, and violation reasons, supporting real-time classification across 5 content categories.",
+    ],
+  },
+  {
     date: "Jun 2024 – Jul 2024",
     title: "Research Intern",
     company_name: "NIT Warangal, India",
     icon: "nitw.png",
-    iconBg: "#e6e6e6",
-    points: [
-      "Applied Super-Resolution Convolutional Neural Network (SRCNN) for image super-resolution, achieving 76% accuracy.",
-      "Directed a team of 3, guiding project execution and fostering collaboration.",
-    ],
-  },
-  {
-    date: "Jul 2023 – Sep 2023",
-    title: "Data Science Intern",
-    company_name: "Altair AICTE Virtual Internship",
-    icon: "/altair.png",
     iconBg: "#f4f4f4",
     points: [
-      "Applied data engineering techniques for preprocessing and transformation, leading to a 15% improvement in model accuracy.",
-      "Leveraged advanced machine learning algorithms such as Gradient Boosting Machines (GBM), XGBoost, and Neural Networks, resulting in a 20% increase in prediction accuracy.",
+      "Applied SRCNN to enhance low-resolution images from real-world datasets; improved PSNR from 24.8 dB to 30.2 dB and SSIM from 0.72 to 0.87 over baseline bicubic interpolation.",
+      "Collaborated with a team of 3 to validate the model’s effectiveness on real-world low-resolution images.",
     ],
   },
 ];
