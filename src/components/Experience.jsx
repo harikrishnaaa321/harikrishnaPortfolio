@@ -16,7 +16,7 @@ const experiences = [
     date: "May 2025 – Jun 2025",
     title: "Summer Intern",
     company_name: "Turtil (Remote)",
-    icon: "image.png",
+    icon: "image.jpeg",
     iconBg: "#e6e6e6",
     points: [
       "Built a DistilBERT-based API service for detecting toxic and abusive language, achieving a micro F1-score of 0.80.",
